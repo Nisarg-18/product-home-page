@@ -10,7 +10,7 @@ A home page for a product made using pure HTML and CSS
 ## Time Taken for Completion
 - 2 hours
 
-<!-- ### Checkout the Project here : [freshplants](https://freshplants.netlify.app/) -->
+### Checkout the Project here : [headphones](https://wheadphones.netlify.app/)
 
 ## Output
 ![output](output.png)
