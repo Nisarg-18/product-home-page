@@ -7,13 +7,13 @@
 body {
   padding: 40px 80px;
   height: 100vh;
-  overflow: hidden;
 }
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-items {
@@ -22,6 +22,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   width: 900px;
+  flex-wrap: wrap;
 }
 
 .list-items {
@@ -30,6 +31,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin-right: 150px;
+  flex-wrap: wrap;
 }
 
 .nav-item {
@@ -53,6 +55,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .new-product {
@@ -90,6 +93,7 @@ nav {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .sub-headlines {
   padding-left: 69px;
@@ -114,6 +118,7 @@ nav {
   font-family: "Poppins", sans-serif;
   margin-right: 20px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .right-section {
@@ -121,6 +126,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .headphones {
@@ -159,6 +165,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+
   width: 120px;
   padding-bottom: 30px;
   padding-top: 10px;
@@ -184,4 +192,40 @@ nav {
 
 .chart-btn {
   margin-left: 23px;
+}
+@media screen and (max-width: 1280px) {
+  .right-section {
+    order: -1;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-section {
+    order: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 50px;
+  }
+  .nav-items {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .text {
+    width: 300px;
+  }
+  .headphones {
+    height: 320px;
+    width: 350px;
+  }
+  .sub-headlines {
+    padding-left: 0px;
+  }
+}
+
+@media screen {
+  .discount,
+  .discount-content {
+    display: none;
+  }
 }

@@ -6,14 +6,20 @@ A home page for a product made using pure HTML and CSS
 ## What have I learnt from this project?
 - Positions in CSS
 - Flexbox
+- Media Queries in CSS
 
 ## Time Taken for Completion
-- 2 hours
+- 3 hours
 
 ### Checkout the Project here : [headphones](https://wheadphones.netlify.app/)
 
 ## Output
+
+## Desktop View
 ![output](output.png)
+
+## Mobile View
+![mobile](mobile.png)
 
 Made with ❤️ by Nisarg Shah
 
